@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: node-pod
+spec:
+  containers:
+    - name: node-container
+      image: cloudservos2607/node-image:latest
